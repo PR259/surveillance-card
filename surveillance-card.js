@@ -236,11 +236,10 @@ class SurveillanceCard extends LitElement {
       }
 
       .thumb > img {
-        width: 100%;
-        height: auto;
-        min-height: 22px;
+        width: calc(22vw);
+        height: calc(12.375vw);
         border: 1px solid var(--primary-color);
-        min-height:91px;
+        min-height: 91px;
       }
 
       .thumb {
@@ -270,7 +269,8 @@ class SurveillanceCard extends LitElement {
       .mainImage > img {
         display: inline-block;
         max-width: 100%;
-        max-height: 100%;
+        height: calc(41.0625vw);
+        width: calc(73vw);
       }
 
       .loading {
